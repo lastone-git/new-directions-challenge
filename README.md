@@ -32,19 +32,19 @@ Open http://localhost:3000 with your browser.
 
 ### Responsive Landing Page
 Header: 
-Contains the company logo and navigation links (Home, About, Services, Careers, Contact).
+Contains the company logo and navigation links (Home, About, Services, Careers, Contact). This ensures clear and easy navigation for users, enhancing their experience by allowing quick access to essential sections of the website. 
 
 Hero Section: 
-Features a video hero background, a brief tagline, and a call-to-action button linking to the "Careers" section.
+Features a video hero background to keep user's attention and dwell time, a brief tagline, and a call-to-action button linking to the "Careers" section.
 
 Key Services Section: 
-Showcases three primary recruitment services (Education Recruitment, Social Care Recruitment, Professional Recruitment) with icons, titles, and short descriptions.
+Showcases three primary recruitment services (Education Recruitment, Social Care Recruitment, Professional Recruitment) with icons, titles, and short descriptions. These sit on exciting and interesting illustrations which are modern and visually appealing for the prospective client.
 
 Testimonial Carousel: 
-Displays feedback from clients and candidates.
+Displays feedback from clients and candidates. Here positive reviews can be clearly seen and displayed.
 
 Footer: 
-Includes social media links, contact information, and a newsletter signup form.
+Includes social media links, contact information, and a newsletter signup form. Also includes accolades which builds trust and shows professionalism for prospective clients.
 
 ### User Experience Enhancements
 
