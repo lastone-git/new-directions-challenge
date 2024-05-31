@@ -78,7 +78,7 @@ Image Optimisation: Next.js automatically optimises images for different screen 
 Cookies Pop-Up: A cookies consent pop-up is implemented to comply with privacy regulations. This component is developed with accessibility in mind, ensuring it is keyboard-navigable and screen reader-friendly.
 Neurodiversity and Accessibility: This project adheres to several neurodiversity and accessibility principles to ensure an inclusive user experience:
 
-## Color Contrast and Readability
+## Neurodiversity
 High Contrast: Ensures high contrast between text and background, meeting WCAG AA or AAA standards.
 Text and Typography: Legible Fonts: Uses clear, sans-serif fonts like Arial, Verdana, or Helvetica.
 Text Alignment: Uses left-aligned text for better readability, avoiding justified text.
