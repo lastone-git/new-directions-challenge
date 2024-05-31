@@ -82,8 +82,6 @@ Neurodiversity and Accessibility: This project adheres to several neurodiversity
 High Contrast: Ensures high contrast between text and background, meeting WCAG AA or AAA standards.
 Text and Typography: Legible Fonts: Uses clear, sans-serif fonts like Arial, Verdana, or Helvetica.
 Text Alignment: Uses left-aligned text for better readability, avoiding justified text.
-
-### Navigation and Layout
 Consistent Layout: Maintains a consistent layout throughout the site.
 Clear Navigation: Uses simple and intuitive navigation menus with landmarks (header, main, footer).
 Breadcrumbs: Implements breadcrumb navigation to help users understand their location.
