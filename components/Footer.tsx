@@ -1,6 +1,7 @@
 import React from 'react';
 import { AiOutlineX, AiOutlineFacebook, AiOutlineLinkedin, AiOutlineInstagram } from 'react-icons/ai';
 import Image from 'next/image';
+import Link from 'next/link';
 import styles from '../styles/components/footer.module.scss';
 
 const Footer: React.FC = () => {
@@ -14,20 +15,32 @@ const Footer: React.FC = () => {
             <button type="submit">Sign Up</button>
           </form>
           <div className={styles["contact-links"]}>
-            <a href="tel:02920390150">
-              <i className="fa-light fa-phone" aria-hidden="true"></i> 029 2039 0150
-            </a>
-            <a href="mailto:enquiries@new-directions.co.uk">
-              <i className="fa-light fa-envelope" aria-hidden="true"></i> enquiries@new-directions.co.uk
-            </a>
+            <Link href="tel:02920390150">
+              
+                <i className="fa-light fa-phone" aria-hidden="true"></i> 029 2039 0150
+              
+            </Link>
+            <Link href="mailto:enquiries@new-directions.co.uk">
+              
+                <i className="fa-light fa-envelope" aria-hidden="true"></i> enquiries@new-directions.co.uk
+              
+            </Link>
           </div>
         </div>
         <div className={styles.rightSection}>
           <div className={styles.social}>
-            <a href="https://twitter.com/NDGroup_" target="_blank" rel="noopener"><AiOutlineX size={40} /></a>
-            <a href="https://www.facebook.com/NewDirectionsGroup1/" target="_blank" rel="noopener"><AiOutlineFacebook size={40} /></a>
-            <a href="https://www.linkedin.com/company/newdirectionsgroup" target="_blank" rel="noopener"><AiOutlineLinkedin size={40} /></a>
-            <a href="https://www.instagram.com/NewDirections_Group/" target="_blank" rel="noopener"><AiOutlineInstagram size={40} /></a>
+            <Link target="_blank" href="https://twitter.com/NDGroup_" passHref>
+              <AiOutlineX size={40} />
+            </Link>
+            <Link target="_blank"href="https://www.facebook.com/NewDirectionsGroup1/" passHref>
+              <AiOutlineFacebook size={40} />
+            </Link>
+            <Link target="_blank"href="https://www.linkedin.com/company/newdirectionsgroup" passHref>
+              <AiOutlineLinkedin size={40} />
+            </Link>
+            <Link target="_blank"href="https://www.instagram.com/NewDirections_Group/" passHref>
+              <AiOutlineInstagram size={40} />
+            </Link>
           </div>
           <div className={styles.images}>
             <Image src="/images/footer/cyber-essentials-plus.png" alt="Cyber Essentials Plus" width={50} height={100} />
@@ -37,13 +50,34 @@ const Footer: React.FC = () => {
           <div className={styles.links}>
             <nav>
               <ul>
-                <li><a href="https://www.new-directions.co.uk/wordpress/wp-content/uploads/Modern-Slavery-Statement-2023-24.pdf" target="_blank" rel="noopener">Modern Slavery Policy</a></li>
-                <li><a href="https://www.new-directions.co.uk/privacy-policy/" rel="privacy-policy">Privacy Policy</a></li>
-                <li><a href="/privacy-policy/#cookies">Cookie Policy</a></li>
-                <li><a href="https://www.new-directions.co.uk/accessibility-statement/">Accessibility Statement</a></li>
+                <li>
+                  <Link target="_blank" href="https://www.new-directions.co.uk/wordpress/wp-content/uploads/Modern-Slavery-Statement-2023-24.pdf" passHref>
+                    Modern Slavery Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.new-directions.co.uk/privacy-policy/" passHref>
+                    Privacy Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/privacy-policy/#cookies" passHref>
+                    Cookie Policy
+                  </Link>
+                </li>
+                <li>
+                  <Link href="https://www.new-directions.co.uk/accessibility-statement/" passHref>
+                    Accessibility Statement
+                  </Link>
+                </li>
               </ul>
             </nav>
-            <p>Copyright © New Directions Holdings Ltd. Part of the <a href="https://www.new-directions.co.uk/" target="_blank" rel="noopener">New Directions Group of Companies</a>.</p>
+            <p>
+              Copyright © New Directions Holdings Ltd. Part of the 
+              <Link target="_blank" href="https://www.new-directions.co.uk/" passHref>
+                New Directions Group of Companies
+              </Link>.
+            </p>
           </div>
         </div>
       </div>

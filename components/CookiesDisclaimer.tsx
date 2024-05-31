@@ -1,8 +1,16 @@
 import React from 'react';
+import { useRouter } from 'next/router';
 import styles from '../styles/components/cookies-disclaimer.module.scss'
 
 const CookiesDisclaimer = () => {
     const [state, setState] = React.useState<boolean>(true);
+    const router = useRouter();
+
+    React.useEffect(() => {
+        if (router.pathname === '/email-template') {
+            setState(false);
+        }
+    }, [router.pathname]);
 
     if (state) {
         return <div className={styles.disclaimer}>

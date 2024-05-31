@@ -5,6 +5,7 @@ import ServicesSection from '../components/ServicesSection';
 import TestimonialCarousel from '../components/TestimonialSection';
 import Footer from '../components/Footer';
 import { Element } from 'react-scroll';
+import JobSearch from '@/components/JobSearch';
 
 const Home = () => {
   return (
@@ -18,9 +19,10 @@ const Home = () => {
         <HeroSection />
       </Element>
       <Element name="section2">
-        <ServicesSection />
+        <JobSearch />
       </Element>
       <Element name="section3">
+        <ServicesSection />
         <TestimonialCarousel />
       </Element>
       <Element name="section4">

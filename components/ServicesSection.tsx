@@ -14,15 +14,6 @@ const ServicesSection = () => {
                         <a href="/education">Education</a>
                     </div>
                 </li>
-                <li style={{ backgroundImage: 'url("/images/services/social-care01_compressed.jpg")' }}>
-                    <div className={styles.overlay}>
-                        <AiTwotoneMedicineBox size={50} />
-                        <p>Advance Your Career: Explore top job listings and resources for professionals.</p>
-                    </div>
-                    <div className={styles["button-container"]}>
-                        <a href="/social-care">Social Care</a>
-                    </div>
-                </li>
                 <li style={{ backgroundImage: 'url("/images/services/professional01_compressed.jpg")' }}>
                     <div className={styles.overlay}>
                         <AiTwotoneBank size={50} />
@@ -30,6 +21,15 @@ const ServicesSection = () => {
                     </div>
                     <div className={styles["button-container"]}>
                         <a href="/professional">Professional</a>
+                    </div>
+                </li>
+                <li style={{ backgroundImage: 'url("/images/services/social-care01_compressed.jpg")' }}>
+                    <div className={styles.overlay}>
+                        <AiTwotoneMedicineBox size={50} />
+                        <p>Advance Your Career: Explore top job listings and resources for professionals.</p>
+                    </div>
+                    <div className={styles["button-container"]}>
+                        <a href="/social-care">Social Care</a>
                     </div>
                 </li>
             </ul>

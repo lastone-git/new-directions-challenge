@@ -22,12 +22,12 @@ const Navigation: React.FC = () => {
       </li>
       <li>
         <Link onClick={() => setState(false)} to="section2" spy={true} smooth={true} duration={500}>
-          Services
+          Careers
         </Link>
       </li>
       <li>
         <Link onClick={() => setState(false)} to="section3" spy={true} smooth={true} duration={500}>
-          Careers
+          Services
         </Link>
       </li>
       <li>

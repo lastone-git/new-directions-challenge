@@ -1,0 +1,23 @@
+[
+    { "id": 1, "title": "Software Engineer", "category": "Professional", "location": "London" },
+    { "id": 2, "title": "Data Scientist", "category": "Professional", "location": "Manchester" },
+    { "id": 3, "title": "Marketing Manager", "category": "Professional", "location": "Birmingham" },
+    { "id": 4, "title": "Project Manager", "category": "Professional", "location": "Edinburgh" },
+    { "id": 5, "title": "Product Designer", "category": "Professional", "location": "Leeds" },
+    { "id": 6, "title": "Primary School Teacher", "category": "Education", "location": "London" },
+    { "id": 7, "title": "Secondary School Teacher", "category": "Education", "location": "Bristol" },
+    { "id": 8, "title": "University Lecturer", "category": "Education", "location": "Oxford" },
+    { "id": 9, "title": "School Administrator", "category": "Education", "location": "Cambridge" },
+    { "id": 10, "title": "Research Assistant", "category": "Education", "location": "Glasgow" },
+    { "id": 11, "title": "Social Worker", "category": "Social Care", "location": "Manchester" },
+    { "id": 12, "title": "Community Support Worker", "category": "Social Care", "location": "Liverpool" },
+    { "id": 13, "title": "Care Assistant", "category": "Social Care", "location": "Birmingham" },
+    { "id": 14, "title": "Youth Worker", "category": "Social Care", "location": "Leeds" },
+    { "id": 15, "title": "Mental Health Support Worker", "category": "Social Care", "location": "Sheffield" },
+    { "id": 16, "title": "Software Tester", "category": "Professional", "location": "Belfast" },
+    { "id": 17, "title": "Graphic Designer", "category": "Professional", "location": "Cardiff" },
+    { "id": 18, "title": "Science Teacher", "category": "Education", "location": "Newcastle" },
+    { "id": 19, "title": "Teaching Assistant", "category": "Education", "location": "Nottingham" },
+    { "id": 20, "title": "Family Support Worker", "category": "Social Care", "location": "Brighton" }
+  ]
+  
