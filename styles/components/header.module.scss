@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  padding: 10px;
+  background: unset;
+  transition: 0.3s;
+  box-sizing: border-box;
+  &.scrolled {
+    background: rgb(15 51 109 / 50%);
+    transition: 0.3s;
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  button {
+    cursor: pointer;
+  }
+}
