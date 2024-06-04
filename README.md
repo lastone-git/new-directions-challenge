@@ -27,51 +27,54 @@ Open http://localhost:3000 with your browser.
 
 ```
 
-
 ## Project Features
 
 ### Responsive Landing Page
-Header: 
-Contains the company logo and navigation links (Home, About, Services, Careers, Contact). This ensures clear and easy navigation for users, enhancing their experience by allowing quick access to essential sections of the website. 
 
-Hero Section: 
+Header:
+Contains the company logo and navigation links (Home, About, Services, Careers, Contact). This ensures clear and easy navigation for users, enhancing their experience by allowing quick access to essential sections of the website.
+
+Hero Section:
 Features a video hero background to keep user's attention and dwell time, a brief tagline, and a call-to-action button linking to the "Careers" section.
 
-Key Services Section: 
+Key Services Section:
 Showcases three primary recruitment services (Education Recruitment, Social Care Recruitment, Professional Recruitment) with icons, titles, and short descriptions. These sit on exciting and interesting illustrations which are modern and visually appealing for the prospective client.
 
-Testimonial Carousel: 
+Testimonial Carousel:
 Displays feedback from clients and candidates. Here positive reviews can be clearly seen and displayed.
 
-Footer: 
+Footer:
 Includes social media links, contact information, and a newsletter signup form. Also includes accolades which builds trust and shows professionalism for prospective clients.
 
 ### User Experience Enhancements
 
-Smooth Scrolling: 
+Smooth Scrolling:
 Implemented for navigation links to enhance user experience.
 
-Consistent Styling: 
+Consistent Styling:
 Adheres to New Directions’ brand identity with a consistent color scheme and typography.
 
-Modern Design Trends: 
+Modern Design Trends:
 Incorporates digital imaging and graphic design, animations and modern web design elements to engage users.
 
-Optimised Images: 
+Optimised Images:
 All images are optimised for web performance and SEO.
 
-Email Template Design: 
+Email Template Design:
 A complementary design for an email template to announce the new site.
 
 ### Additional Features
+
 Interactive Job Search: Users can filter available job listings by category and location.
 
 ### Hooks and State Management
-The project extensively uses React hooks for managing state and side effects, ensuring a clean and efficient codebase. 
-Key hooks used include useState, useEffect, and custom hooks for fetching data. 
+
+The project extensively uses React hooks for managing state and side effects, ensuring a clean and efficient codebase.
+Key hooks used include useState, useEffect, and custom hooks for fetching data.
 However, I have also built and added custom hooks including useClickAway which can trigger a state change when clicking outside of the chosen element and also useScreenDimensions which will get the current screen dimensions with debounce setting.
 
 ## Styling Choices
+
 Styling is managed with CSS Modules and Sass for scoped and maintainable styles. The next/font package is used for automatic font optimisation, loading Inter, a custom Google Font.
 Video Hero Section: The hero section features a video background, providing a visually engaging introduction to the website. This section uses HTML5 <video> elements for seamless integration and performance.
 Image Optimisation: Next.js automatically optimises images for different screen sizes and resolutions. The next/image component is utilized to handle responsive image loading and lazy loading.
@@ -79,6 +82,7 @@ Cookies Pop-Up: A cookies consent pop-up is implemented to comply with privacy r
 Neurodiversity and Accessibility: This project adheres to several neurodiversity and accessibility principles to ensure an inclusive user experience:
 
 ## Neurodiversity
+
 High Contrast: Ensures high contrast between text and background, meeting WCAG AA or AAA standards.
 Text and Typography: Legible Fonts: Uses clear, sans-serif fonts like Arial, Verdana, or Helvetica.
 Text Alignment: Uses left-aligned text for better readability, avoiding justified text.
@@ -102,3 +106,7 @@ Sitemaps: Using the next-sitemap package I have generated sitemaps for my projec
 ## Conclusion
 
 This project showcases my ability to build a responsive, dynamic web application with a focus on front-end development, digital imaging, and graphic design. The solution adheres to the project guidelines and demonstrates my technical skills, creativity, and attention to detail.
+
+## Added Graphic Design Artworks
+
+I have added some graphical pieces to the folder "/graphic_design_artworks". This includes a Pamphlet design for Cardiff University, Web Design screenshots of live sites and wireframes of potential sites, Print ready Box Templates inluding cut/trim lines, Posters and Logos for company rebrands.
