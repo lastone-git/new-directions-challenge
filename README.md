@@ -109,4 +109,4 @@ This project showcases my ability to build a responsive, dynamic web application
 
 ## Added Graphic Design Artworks
 
-I have added some graphical pieces to the folder "/graphic_design_artworks". This includes a Pamphlet design for Cardiff University, Web Design screenshots of live sites and wireframes of potential sites, Print ready Box Templates inluding cut/trim lines, Posters and Logos for company rebrands.
+I have added some graphical pieces to the folder "/graphic_design_artworks". This includes a Pamphlet design for Cardiff University, Web Design screenshots of live sites and wireframes of potential sites, Print ready Box Templates inluding cut/trim lines, Posters and Logos for company rebrands and Album cover design which can be seen on Spotify.
